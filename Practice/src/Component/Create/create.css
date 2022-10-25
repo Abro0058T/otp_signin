@@ -1,0 +1,32 @@
+.create{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px !important;
+    text-align: center;
+}
+h4{
+    margin-bottom: 0px !important;
+}
+input{
+    margin-top: 15px !important;
+    /* margin-bottom: 30px !important; */
+}
+
+.phoneinput{
+    margin-top:  30px !important;
+}
+.terms{
+    margin-top: 15px !important;
+    margin-bottom: 35px !important;
+}
+.terms input{
+    margin: 0px !important;
+    height: 10px !important;
+}
+.create button{
+    background-color: purple;
+    color: white;
+    font-weight: 500;
+}
