@@ -36,8 +36,13 @@ app.post("/post",(req,res)=>{
 })
 app.post("/otp",(req,res)=>{
     console.log("Got otp")
+    res.end()
 })
-app.post("/create",())
+app.post("/create",(req,res)=>{
+    console.log(req.body)
+    // res.redirect("./Comp1")
+    res.end()
+})
 // app.post("/post",(req,res)=>{
 //     console.log(req.body.phoneNumber)
 //     // res.send("hello world !")
